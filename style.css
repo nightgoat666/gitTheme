@@ -1,0 +1,183 @@
+/*
+	Theme Name: YMC Season 7 Theme
+	Theme URI: http://ymctest.com
+	Version: 0.1
+	Author: Jonathan Laba
+	Description: Great theme
+
+*/
+
+/* 
+Layout
+*/
+
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+header,
+nav,
+#main,
+footer
+{
+    max-width: 960px;
+    margin: auto;
+    font-family: arial;
+
+
+}
+
+nav a:hover, 
+.current-menu-item a{
+    color: red;
+}
+
+/*second selector is making the current active*/
+
+header
+{
+    border-bottom: 1px solid #ADADAD;
+    background: url(img/pcp_logo.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    min-height: 142px;
+
+}
+
+header a
+{
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    right: -567px;
+    bottom: -110px;
+    text-decoration: none;
+
+}
+#main
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+.article_list 
+{
+    width: 75%;
+    min-height: 20px;
+    float: left;
+    padding: 0;
+
+}
+
+#main
+{
+
+    border-bottom: 1px solid #000;
+    padding: 0px; 
+    margin: 0 auto;
+}
+
+
+article
+{
+    width: 100%;
+    float: left;
+    margin: 0px;
+}
+
+.article_title
+{
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-left: 10px;
+    margin-left:  0px;
+    float: left;
+
+
+}
+
+h2
+{
+	font-size: 30px;
+	text-align: left;
+    margin-bottom: -7px;
+
+}
+
+.article_details
+{	
+	text-align: left;
+	width: 25%;
+	float:	left;
+	border-top: 1px;
+    height: 100%;
+}
+
+p.date
+{
+	text-align: left;
+	font-size: 10px;
+    color: darkgrey;
+}
+
+p .category
+{
+
+}
+
+.content
+{
+    width: 75%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+
+}
+
+#sidebar
+{
+    float: right;
+    width: 25%;
+    padding: 2px;
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid black;
+}
+
+p.category li
+{
+    color: black;
+}
+
+.article_list > *,
+#sidebar > *
+{
+    
+}
+
+
+#article_list p,
+#sidebar p
+
+{
+ text-align: justify;
+line-height: 1.5em;
+}
+
+li
+{
+    color: black
+    underline: 1px dashed black;
+}
+
+
+footer
+{
+    color: #000;
+}
